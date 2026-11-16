@@ -41,4 +41,8 @@ public class Customer {
     public String getEmail(){
         return email;
     }
+    @Override
+    public String toString(){
+        return "Name: " + firstName + ", Surname: " + lastName + "Phone number: " + phone;
+    }
 }
